@@ -11,6 +11,7 @@ st.header("Define tu esencia ✍️")
 st.subheader("Enfócate en ella 🎯")
 st.subheader("Construye una Nueva Vida♥")
 
-
-a = st.sidebar.radio('Select one:', [1, 2])
-a
+with st.form(key='my_form'):
+   username = st.text_input('Username')
+   password = st.text_input('Password')
+   st.form_submit_button('Login')
