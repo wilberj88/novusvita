@@ -3,6 +3,5 @@ import streamlit as st
 
 st.title('Define tu esencia')
 
-st.radio('Pick one', ['cats', 'dogs'])
-st.selectbox('Pick one', ['cats', 'dogs'])
-st.multiselect('Buy', ['milk', 'apples', 'potatoes'])
+st.selectbox('Elige el rol más demandado a futuro que desees abordar', ['Data Scientist', 'Broker', 'ML Operator'])
+st.multiselect('Elige los problemas del planeta que deseas enfrentar', ['Hambre', 'Pobreza', 'Educacion'])
