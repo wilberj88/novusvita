@@ -12,3 +12,5 @@ st.subheader("Enfócate en ella 🎯")
 st.subheader("Construye una Nueva Vida♥")
 
 
+a = st.sidebar.radio('Select one:', [1, 2])
+a
