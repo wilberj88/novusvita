@@ -4,7 +4,7 @@ pandas
 numpy 
 altair 
 pydeck
-matplotlib.pyplot
+matplotlib
 datetime
 base64
 
