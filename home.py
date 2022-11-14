@@ -39,11 +39,10 @@ st.write('---')
 
 st.write('Pasión ♥')
 st.multiselect('Selecciona tus principales pasatiempos', ['Leer', 'Ejercicio', 'Cine'])
-st.text_input('Indícanos 3 personas que te inspiren por categorías')
-
+st.text_input('Indica cómo sería tu vida ideal')
 option = st.selectbox(
-    'Elige la Circunscripción de tu Candidatura:',
-    ('Gobernación', 'Asamblea', 'Alcaldía', 'Concejo', 'Comunas'))
+    'Indícanos 3 materias preferidas del colegio',
+    ('Matemáticas', 'Filosofía', 'Física', 'Biología', 'Deportes'))
 
 
 st.write('Vocación 🧠')
