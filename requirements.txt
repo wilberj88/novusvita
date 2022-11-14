@@ -6,5 +6,5 @@ altair
 pydeck
 matplotlib
 datetime
-base64
+
 
