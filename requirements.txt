@@ -2,7 +2,6 @@ streamlit
 plotly.express
 pandas 
 numpy 
-plotly.figure_factory
 altair 
 pydeck
 matplotlib.pyplot
